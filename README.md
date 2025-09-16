@@ -27,12 +27,12 @@ Weather API --> Raw JSON --> MongoDB (raw) --> Transformation --> MongoDB (clean
 ```
 project_root/
 ├─ app/
-│  ├─ main.py                 # Python ETL script
+│  ├─ main.py                   # Python ETL script
 ├─ sql/
-│  ├─ silver_weather.sql      # Table creation & insertion
-│  ├─ analytical_queries.sql      # Table creation & insertion
-├─ raw_data/                  # Directory for raw JSON files
-├─ .env                       # Environment variables
+│  ├─ silver_weather.sql        # Table creation & insertion
+│  ├─ analytical_queries.sql    # Table creation & insertion
+├─ raw_data/                    # Directory for raw JSON files
+├─ .env                         # Environment variables
 ├─ README.md
 └─ requirements.txt
 ```
