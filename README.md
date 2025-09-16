@@ -30,7 +30,7 @@ project_root/
 │  ├─ main.py                   # Python ETL script
 ├─ sql/
 │  ├─ silver_weather.sql        # Table creation & insertion
-│  ├─ analytical_queries.sql    # Table creation & insertion
+│  ├─ analytical_queries.sql    # Queries to find insight into data
 ├─ raw_data/                    # Directory for raw JSON files
 ├─ .env                         # Environment variables
 ├─ README.md
