@@ -1,0 +1,9 @@
+# Environments
+.env
+venv/
+
+# Data files
+raw_data/
+\*.json
+
+
